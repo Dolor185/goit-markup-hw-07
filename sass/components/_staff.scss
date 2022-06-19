@@ -1,0 +1,41 @@
+.members {
+    padding-bottom: 94px;
+    background-color: #f5f4fa;
+}
+
+.staff__image {
+    display: block;
+}
+
+.staff{
+    text-align: center;
+    display: flex;
+
+    @extend %list;
+}
+
+.staff__item {
+    border-radius: 4px;
+    box-shadow: 1px 3px 5px rgba(47, 48, 58, 0.4);
+    width: 270px;
+    height: 428px;
+    padding-bottom: 30px;
+    background-color: getColor('white');
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+.staff__name {
+    margin-top: 30px;
+    margin-bottom: 0;
+    color: getColor('primary');
+}
+
+.staff__post {
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: getColor('secondary');
+}
+

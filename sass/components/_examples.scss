@@ -1,0 +1,13 @@
+.example {
+    padding-bottom: 94px;
+}
+
+.examples {
+    justify-content: center;
+    display: flex;
+    @extend %list;
+}
+
+.examples__item:not(:last-child) {
+    margin-right: 30px;
+}
