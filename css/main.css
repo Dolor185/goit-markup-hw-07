@@ -41,7 +41,7 @@ body {
 .section__title {
   margin-top: 0;
   margin-bottom: 50px;
-  color: var(--primary-text-color);
+  color: #212121;
   text-align: center;
 }
 
@@ -472,7 +472,7 @@ main {
 .feutures__title {
   margin-top: 30px;
   margin-bottom: 10px;
-  color: var(--primary-text-color);
+  color: #212121;
 }
 
 .feutures__text {
@@ -597,6 +597,7 @@ main {
 .staff__name {
   margin-top: 30px;
   margin-bottom: 0;
+  color: #212121;
 }
 
 .staff__post {
